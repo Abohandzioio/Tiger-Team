@@ -12,4 +12,14 @@ public class ContactController {
 	public String contact () {
 		return "/seminaire_client/seminaire_contact/contact";
 	}
+
+	@GetMapping("/getContatct")
+	public String getContact(){
+		return "";
+	}
+
+
+
+
+
 }

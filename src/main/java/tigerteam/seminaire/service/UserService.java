@@ -33,7 +33,7 @@ public class UserService {
 		
 		return  userRepository.findAll();
 	}
-
+/*
 	public User updateArticle( Integer id, User user ) {
 		Optional<User> optArt = userRepository.findById( id );
 
@@ -54,6 +54,8 @@ public class UserService {
 
 		return null;
 	}
+
+ */
 
 
 }

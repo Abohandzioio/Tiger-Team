@@ -5,35 +5,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb940098-5d7a-445e-891c-d5dad3c38b6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/controller/AdresseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/controller/CalendrierController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/controller/CommentaireController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/controller/NotificationConntroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/service/AdresseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/service/CalendrierService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/service/CommentaireService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/service/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/controller/AstusController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/controller/CategorieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/resources/static/css/seminaire_client_css/calendrier/event.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/resources/static/css/seminaire_client_css/seminaire/seminaire.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/resources/static/css/seminaire_client_css/user/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/resources/static/css/seminaire_client_css/user/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/resources/static/js/calendrier/calendrier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/resources/static/js/errors/check_champ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/resources/static/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/resources/templates/seminaire_client/notification/create_notif.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/resources/templates/seminaire_client/seminaire/find_seminaire.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/resources/templates/seminaire_client/seminaire/show_seminaire.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/resources/templates/seminaire_client/seminaire_actus/find_actus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/resources/templates/seminaire_client/seminaire_calendrier/calendrier.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/resources/templates/seminaire_client/seminaire_calendrier/evenement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/resources/templates/seminaire_client/seminaire_categorie/add_categorie.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/resources/templates/seminaire_client/seminaire_error/error_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/resources/templates/seminaire_client/seminaire_user/add_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/resources/templates/seminaire_client/seminaire_user/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/resources/templates/seminaire_client/seminaire_user/logon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pas_de_fichier_source.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/controller/ContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/controller/ContactController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/controller/CalendrierController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/controller/CalendrierController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/controller/SeminaireController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/controller/SeminaireController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/model/Seminaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/model/Seminaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/service/SeminaireService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/service/SeminaireService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/tigerteam/seminaire/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/META-INF/maven/tigerteam/seminaire/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/META-INF/maven/tigerteam/seminaire/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/conception/Capture d’écran (480).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/conception/Capture d’écran (481).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/css/seminaire_client_css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/static/css/seminaire_client_css/contact/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/seminaire_client/header_seminaire.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/seminaire_client/header_seminaire.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/seminaire_client/navbar_seminaire.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/seminaire_client/navbar_seminaire.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/seminaire_client/seminaire/add_seminaire.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/seminaire_client/seminaire/add_seminaire.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/seminaire_client/seminaire_contact/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/seminaire_client/seminaire_contact/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/seminaire_client/user/add_user" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/static/css/seminaire_client_css/calendrier/calendrier.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/static/css/seminaire_client_css/contact.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/templates/seminaire_client/header_seminaire.html" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/templates/seminaire_client/header_seminaire.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/templates/seminaire_client/navbar_seminaire.html" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/templates/seminaire_client/navbar_seminaire.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/templates/seminaire_client/seminaire/add_seminaire.html" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/templates/seminaire_client/seminaire/add_seminaire.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/templates/seminaire_client/seminaire_contact/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/templates/seminaire_client/seminaire_contact/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/templates/seminaire_client/user/add_user" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/tigerteam/seminaire/controller/ContactController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/tigerteam/seminaire/controller/ContactController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/tigerteam/seminaire/controller/SeminaireController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/tigerteam/seminaire/controller/SeminaireController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/tigerteam/seminaire/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/tigerteam/seminaire/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/tigerteam/seminaire/model/Adresse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/tigerteam/seminaire/model/Adresse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/tigerteam/seminaire/model/Calendrier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/tigerteam/seminaire/model/Calendrier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/tigerteam/seminaire/model/Commentaire.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/tigerteam/seminaire/model/Commentaire.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/tigerteam/seminaire/model/Notification.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/tigerteam/seminaire/model/Notification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/tigerteam/seminaire/model/Seminaire.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/tigerteam/seminaire/model/Seminaire.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/tigerteam/seminaire/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/tigerteam/seminaire/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/tigerteam/seminaire/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/tigerteam/seminaire/repository/UserRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../target/classes/tigerteam/seminaire/service/SeminaireService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/tigerteam/seminaire/service/SeminaireService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../target/classes/tigerteam/seminaire/service/UserService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,16 +91,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "seminaire",
-    "jdk.selected.JAVA_MODULE": "21",
-    "last_opened_file_path": "C:/Users/ACER/Documents/TigerTeam/tiger_seminaire",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;seminaire&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ACER/Documents/TigerTeam/tiger_seminaire&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />

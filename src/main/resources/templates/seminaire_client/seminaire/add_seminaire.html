@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <th:block th:insert="~{/seminaire_client/header_seminaire :: head}"></th:block>
+</head>
+
+<body>
+<th:block th:insert="~{/seminaire_client/navbar_seminaire :: header}"></th:block>
+<div class="container">
+    <h2>Ajouter un séminaire</h2>
+    <form action="#" method="post">
+        <div class="input-group">
+            <label for="theme">Thème:</label>
+            <input type="text" id="theme" name="theme" required>
+        </div>
+        <div class="input-group">
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required></textarea>
+        </div>
+
+        <div class="input-group">
+            <label for="user">Intervenant:</label>
+            <input type="text" id="user" name="user" required>
+        </div>
+        <button type="submit">Envoyer</button>
+    </form>
+</div>
+</body>
+</html>

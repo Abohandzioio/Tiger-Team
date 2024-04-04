@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <th:block th:insert="~{/seminaire_client/header_seminaire :: head}"></th:block>
+</head>
+<body>
+
+<div class="container">
+    <h2>Login Form</h2>
+    <form action="/login" method="post">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required><br>
+
+        <label for="login">Login:</label>
+        <input type="text" id="login"  name="login" required><br>
+
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom"  name="nom" required><br>
+
+        <label for="prenom">Prénom:</label>
+        <input type="text" id="prenom"  name="prenom" required><br>
+
+        <label for="rue">Rue:</label>
+        <input type="text" id="rue"  name="rue" required><br>
+
+        <label for="ville">Ville:</label>
+        <input type="text" id="ville"  name="ville" required><br>
+
+        <label for="pays">Pays:</label>
+        <input type="text" id="pays"  name="pays" required><br>
+
+        <input type="submit" value="Login">
+    </form>
+    <hr>
+    <a th:href="@{/user/login}" class="link-three-131">login</a>
+</div>
+
+
+</body>
+</html>

@@ -17,7 +17,7 @@ public class SeminaireService {
         @Autowired
         SeminaireRepository seminaireRepository;
 
-        public Seminaire adduser(Seminaire  seminaire) {
+        public Seminaire addSeminaire(Seminaire  seminaire) {
             return  seminaireRepository.save(seminaire);
         }
 
